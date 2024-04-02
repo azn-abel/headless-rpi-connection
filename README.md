@@ -8,11 +8,13 @@ headless using SSH and Nmap. 🎩🍓
 - Visit the official [Raspberry Pi website](https://www.raspberrypi.com/software/) or the [GitHub repository](https://github.com/raspberrypi/rpi-imager) to download the
   Raspberry Pi Imager tool.
 - Choose the version suitable for your operating system (Windows, macOS, or Linux).
+
 ## 2. Download the Correct OS for the Pi
 - Launch the Raspberry Pi Imager tool.
 - Select the appropriate operating system for your Raspberry Pi.
   For headless setup (without a graphical user interface), consider using Raspberry Pi OS Lite.
 - Follow the prompts to download and write the OS image to your microSD card.
+
 ## 3. Configure Settings in the Imager
 - Before writing the OS image to the microSD card, configure Wi-Fi and enable SSH:
   - Click on “Choose OS” and select the OS image you’ve downloaded.
@@ -20,10 +22,12 @@ headless using SSH and Nmap. 🎩🍓
   - Click on “Wireless Network” and enter your Wi-Fi credentials.
   - Enable SSH by clicking on “Interfacing Options” and checking the “SSH” option.
   - Click on “Write” to flash the OS image to the microSD card with the configured settings.
+  
 ## 4. Download the CLI Version of Nmap
 - Visit the official [Nmap website](https://nmap.org/download) and download the command-line version suitable
   for your operating system.
 - Follow the installation instructions provided for your platform.
+
 ## 5. Open Your Computer’s CLI
 On macOS:
 - Open the Terminal application (you can find it in the Utilities folder within Applications).
