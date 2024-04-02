@@ -34,6 +34,7 @@ On macOS:
   
 On Windows:
 - Open the Command Prompt (search for “cmd” in the Start menu).
+
 ## 6. Run the Correct Nmap Scan 
 - Use Nmap to scan your local network for devices:
   - `nmap -sn 192.168.1.0/24`
