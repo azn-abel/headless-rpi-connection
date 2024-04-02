@@ -5,7 +5,7 @@ By following these steps, you’ll be able to connect to your Raspberry Pi
 headless using SSH and Nmap. 🎩🍓
 
 ## 1. Get the Raspberry Pi Imager
-- Visit the official Raspberry Pi website or the GitHub repository to download the
+- Visit the official [Raspberry Pi website](https://www.raspberrypi.com/software/) or the [GitHub repository](https://github.com/raspberrypi/rpi-imager) to download the
   Raspberry Pi Imager tool.
 - Choose the version suitable for your operating system (Windows, macOS, or Linux).
 ## 2. Download the Correct OS for the Pi
@@ -21,7 +21,7 @@ headless using SSH and Nmap. 🎩🍓
   - Enable SSH by clicking on “Interfacing Options” and checking the “SSH” option.
   - Click on “Write” to flash the OS image to the microSD card with the configured settings.
 ## 4. Download the CLI Version of Nmap
-- Visit the official Nmap website and download the command-line version suitable
+- Visit the official [Nmap website](https://nmap.org/download) and download the command-line version suitable
   for your operating system.
 - Follow the installation instructions provided for your platform.
 ## 5. Open Your Computer’s CLI
@@ -32,9 +32,7 @@ On Windows:
 - Open the Command Prompt (search for “cmd” in the Start menu).
 ## 6. Run the Correct Nmap Scan 
 - Use Nmap to scan your local network for devices:
-
-`nmap -sn 192.168.1.0/24`
-
+  - `nmap -sn 192.168.1.0/24`
 - Replace 192.168.1.0/24 with your actual network range.
 
 ## 7. Decipher Which Open Port is Your Raspberry Pi
